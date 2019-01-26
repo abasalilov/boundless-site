@@ -1,0 +1,186 @@
+.home-construction {
+  background-color: rgba(255, 255, 255, 0);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  margin-left: 3rem;
+}
+
+img {
+  min-height: 1px;
+  max-width: 90%;
+  position: absolute;
+  top: 205px;
+  left: 40px;
+}
+
+.helpingpeoplegrow {
+  background-color: rgba(255, 255, 255, 0) !important;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 6.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+}
+
+.ittakesmorethana {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+
+.topLine {
+  width: 90%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  left: 5%;
+}
+
+.midLine {
+  width: 83%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  left: 8.5%;
+}
+
+.wevebeenbuilding {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+
+.lineSecond {
+  min-width: 75%;
+  max-width: 98%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 7rem;
+  min-height: 1px;
+}
+
+.wheredoistartwit {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important;
+  font-size: 26px !important;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+
+.blogLink {
+  color: #273135;
+  /* margin-right:3rem; */
+}
+
+.blogtitlelink {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 30px;
+  line-height: 24px;
+  margin: 0;
+  padding: 6px;
+  text-decoration: underline;
+  color: #273135 !important;
+  font-size: 26px;
+}
+
+.datespan {
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+  font-size: 26px;
+  line-height: 56px;
+  font-family: "Barlow Condensed", sans-serif !important;
+}
+
+.askboundless {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 6.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+}
+
+.overadecade {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 6.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+}
+
+.wevebeenbuilding {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin: 1rem 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+
+  .paraTop {
+    font-size: 1.6em !important;
+    font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important;
+    margin: 3rem 0 1rem 0;
+  }
+
+  .highlightLink {
+    font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+    line-height: 31px;
+    margin: 0.5rem 0;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,119 @@
+.navbar {
+  .nav-item {
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  }
+}
+
+.nav-link {
+  color: $secondary !important;
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
+.homeHeader {
+  background-color: rgba(37, 49, 53, 1);
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.coachingHeader {
+  background-color: rgba(108, 72, 0, 1);
+}
+
+.partnershipsHeader {
+  background-color: #4f5c2b;
+}
+
+.appDevHeader {
+  background-color: rgba(60, 3, 32, 1);
+}
+
+.aboutHeader {
+  background-color: rgba(76, 93, 34, 1);
+}
+
+.askHeader {
+  background-color: rgba(76, 93, 34, 1);
+}
+
+.boundless {
+  height: auto;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 48px;
+  color: rgba(252, 252, 252, 1);
+  text-align: left;
+  line-height: 90px;
+}
+
+.venturepartnerships {
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+
+.joinCopy {
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.signUpCopy {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 6.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+}
+
+.signupRow {
+  font-size: 1rem !important;
+  height: 58px;
+  align-items: center;
+}
+
+.inputField {
+  font-size: 26px !important;
+  height: 58px;
+  color: white;
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important;
+  background-color: #1f272a !important;
+  border-bottom-color: #898f91 !important;
+  border-left-color: #898f91 !important;
+  border-right-color: #898f91 !important;
+  border-top-color: #898f91 !important;
+  border-style: solid;
+  margin-top: 1rem;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.signUpBtn {
+  background-color: white !important;
+  height: 58px;
+  color: #273135;
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important;
+  font-size: 26px !important;
+  border-radius: 0px !important;
+  margin-top: 1rem;
+}

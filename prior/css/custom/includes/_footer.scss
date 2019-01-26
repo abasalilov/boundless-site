@@ -1,0 +1,104 @@
+.bhfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.homeFooter {
+  background-color: rgba(37, 49, 53, 1);
+  width: 100%;
+}
+
+.coachingFooter {
+  background-color: rgba(108, 72, 0, 1);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.partnershipsFooter {
+  background-color: #4f5c2b;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.appDevFooter {
+  background-color: rgba(60, 3, 32, 1);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.aboutFooter {
+  background-color: rgba(76, 93, 34, 1);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.askFooter {
+  background-color: rgba(76, 93, 34, 1);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.quoralinkedintwittcopy {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 20px;
+  color: #fcfcfc;
+  text-align: left;
+  line-height: 24px;
+}
+
+.footerNav {
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+
+.a2512018boundlessprocopy {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: right;
+  line-height: 24px;
+}
+.a2512018boundlessprocopy .span1 {
+}
+.a2512018boundlessprocopy .span2 {
+  font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif;
+}
+.a2512018boundlessprocopy .span3 {
+}
+
+.footerContainer {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 5.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+  max-width: 99%;
+}
+
+.footerColor {
+}
