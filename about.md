@@ -1,6 +1,5 @@
 ---
 title: about
 permalink: "/about/"
-layout: aboutLayout
+layout: aboutPage
 ---
-
