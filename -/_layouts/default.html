@@ -2,6 +2,8 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {% include headerNav.html %} {{ content }} {% include footer.html %}
+    <div class="container-fluid">
+      {% include header.html %} {{ content }} {% include footer.html %}
+    </div>
   </body>
 </html>

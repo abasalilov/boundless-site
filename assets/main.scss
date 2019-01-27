@@ -8,3 +8,22 @@
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
 @import "solarized-dark";
+@import "custom/includes/global";
+@import "custom/includes/global";
+@import "custom/includes/footer";
+@import "custom/includes/home";
+@import "custom/includes/signup";
+
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BarlowCondensed-Regular";
+  src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype");
+}
