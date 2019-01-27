@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/app-development/</loc>
+<loc>/app-development/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/ask/</loc>
+<loc>/ask/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/coaching/</loc>
+<loc>/coaching/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/venture-partnerships/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-<lastmod>2019-01-26T18:12:04-08:00</lastmod>
+<loc>/venture-partnerships/</loc>
 </url>
 </urlset>

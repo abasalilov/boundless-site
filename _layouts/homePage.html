@@ -20,28 +20,26 @@
         '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>'
       );
   </script>
-  <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
-
+  <script src="assets/javascript/bootstrap/jquery.min.js"></script>
   <script src="assets/javascript/plugins.js"></script>
   <script src="assets/javascript/main.js"></script>
-  <div>
-    <div class="{{ page.title }}Body mx-0 px-0">
-      {%- include header.html -%}
-      {%- include homeContent.html -%}
-      {%- include signup.html -%}
-      {%- include footer.html -%}
-    </div>
+  <div class="container-fluid">
+    {%- include header.html -%}
+    {%- include homeContent.html -%}
+    {%- include signup.html -%}
+    {%- include footer.html -%}
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   </div>
-      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-      <script>
-        window.ga = function () {
-          ga.q.push(arguments);
-        };
-        ga.q = [];
-        ga.l = +new Date();
-        ga("create", "UA-XXXXX-Y", "auto");
-        ga("send", "pageview");
-      </script>
-      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
+
 </html>
