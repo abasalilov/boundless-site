@@ -1,5 +1,5 @@
 ---
 layout: homePage
-title: "/"
+title: "home"
 permalink: "/"
 ---
