@@ -2689,13 +2689,19 @@ input:focus { outline: none !important; }
 
 .signUpBtn { background-color: white !important; height: 58px; color: #273135; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important; font-size: 26px !important; border-radius: 0px !important; margin-top: 1rem; }
 
-body { width: 100%; overflow-x: hidden; }
-body .homeBody { background-color: #253135; }
-body .coachingBody { background-color: #6c4800; }
-body .partnershipsBody { background-color: #4f5c2b; }
-body .appDevBody { background-color: #3c0320; }
-body .aboutBody { background-color: #4c5d22; }
-body .askBody { background-color: #4c5d22; }
+body { width: 100% !important; overflow-x: hidden !important; }
+
+.homeBody { background-color: #253135 !important; overflow-x: hidden !important; }
+
+.coachingBody { background-color: #6c4800; overflow-x: hidden !important; }
+
+.partnershipsBody { background-color: #4f5c2b; overflow-x: hidden !important; }
+
+.appDevBody { background-color: #3c0320; overflow-x: hidden !important; }
+
+.aboutBody { background-color: #4c5d22; overflow-x: hidden !important; }
+
+.askBody { background-color: #4c5d22; overflow-x: hidden !important; }
 
 @font-face { font-family: "BarlowCondensed-SemiBold"; src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Regular"; src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype"); }

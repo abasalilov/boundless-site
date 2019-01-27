@@ -2,8 +2,20 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {%- include head.html -%}
+  <script src="assets/javascript/modernizr-3.6.0.min.js" async></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous" async></script>
+  <script>
+    window.jQuery ||
+      document.write(
+        '<script src="js/vendor/jquery-3.3.1.min.js" async><\/script>'
+      );
+  </script>
+  <script src="assets/javascript/bootstrap/jquery.min.js" async></script>
+  <script src="assets/javascript/plugins.js" async></script>
+  <script src="assets/javascript/main.js" async></script>
 
-<body>
+<body class="container-fluid p-0">
   <!--[if lte IE 9]>
           <p class="browserupgrade">
             You are using an <strong>outdated</strong> browser. Please
@@ -11,19 +23,7 @@
             your experience and security.
           </p>
         <![endif]-->
-  <script src="assets/javascript/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script>
-    window.jQuery ||
-      document.write(
-        '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>'
-      );
-  </script>
-  <script src="assets/javascript/bootstrap/jquery.min.js"></script>
-  <script src="assets/javascript/plugins.js"></script>
-  <script src="assets/javascript/main.js"></script>
-  <div class="container-fluid">
+  <section class="{{ page.title }}Body">
     {%- include header.html -%}
     {%- include homeContent.html -%}
     {%- include signup.html -%}

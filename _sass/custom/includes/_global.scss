@@ -120,29 +120,36 @@ input:focus {
 }
 
 body {
-  width: 100%;
-  overflow-x: hidden;
-  .homeBody {
-    background-color: rgba(37, 49, 53, 1);
-  }
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
 
-  .coachingBody {
-    background-color: rgba(108, 72, 0, 1);
-  }
+.homeBody {
+  background-color: rgba(37, 49, 53, 1) !important;
+  overflow-x: hidden !important;
+}
 
-  .partnershipsBody {
-    background-color: #4f5c2b;
-  }
+.coachingBody {
+  background-color: rgba(108, 72, 0, 1);
+  overflow-x: hidden !important;
+}
 
-  .appDevBody {
-    background-color: rgba(60, 3, 32, 1);
-  }
+.partnershipsBody {
+  background-color: #4f5c2b;
+  overflow-x: hidden !important;
+}
 
-  .aboutBody {
-    background-color: rgba(76, 93, 34, 1);
-  }
+.appDevBody {
+  background-color: rgba(60, 3, 32, 1);
+  overflow-x: hidden !important;
+}
 
-  .askBody {
-    background-color: rgba(76, 93, 34, 1);
-  }
+.aboutBody {
+  background-color: rgba(76, 93, 34, 1);
+  overflow-x: hidden !important;
+}
+
+.askBody {
+  background-color: rgba(76, 93, 34, 1);
+  overflow-x: hidden !important;
 }
