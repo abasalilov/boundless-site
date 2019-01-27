@@ -78,7 +78,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 4.3em;
+  font-size: 6.3em;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -119,6 +119,8 @@ input:focus {
 }
 
 body {
+  width: 100%;
+  overflow-x: hidden;
   .homeBody {
     background-color: rgba(37, 49, 53, 1);
   }

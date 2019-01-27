@@ -2679,7 +2679,7 @@ green     #859900  operators, other keywords
 
 .joinCopy { font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
 
-.signUpCopy { background-color: rgba(255, 255, 255, 0); height: auto; margin-top: 4rem; margin-bottom: 4rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 4.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+.signUpCopy { background-color: rgba(255, 255, 255, 0); height: auto; margin-top: 4rem; margin-bottom: 4rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
 
 .signupRow { font-size: 1rem !important; height: 58px; align-items: center; }
 
@@ -2689,46 +2689,7 @@ input:focus { outline: none !important; }
 
 .signUpBtn { background-color: white !important; height: 58px; color: #273135; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important; font-size: 26px !important; border-radius: 0px !important; margin-top: 1rem; }
 
-body .homeBody { background-color: #253135; }
-body .coachingBody { background-color: #6c4800; }
-body .partnershipsBody { background-color: #4f5c2b; }
-body .appDevBody { background-color: #3c0320; }
-body .aboutBody { background-color: #4c5d22; }
-body .askBody { background-color: #4c5d22; }
-
-.navbar .nav-item { font-size: 1.2rem; margin: 0; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; }
-
-.nav-link { color: #6c757d !important; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; }
-.nav-link:hover { color: #6c757d !important; }
-
-.homeHeader { background-color: #253135; display: flex !important; flex-direction: row !important; }
-
-.coachingHeader { background-color: #6c4800; }
-
-.partnershipsHeader { background-color: #4f5c2b; }
-
-.appDevHeader { background-color: #3c0320; }
-
-.aboutHeader { background-color: #4c5d22; }
-
-.askHeader { background-color: #4c5d22; }
-
-.boundless { height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 48px; color: #fcfcfc; text-align: left; line-height: 90px; }
-
-.venturepartnerships { font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; }
-
-.joinCopy { font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
-
-.signUpCopy { background-color: rgba(255, 255, 255, 0); height: auto; margin-top: 4rem; margin-bottom: 4rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 4.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
-
-.signupRow { font-size: 1rem !important; height: 58px; align-items: center; }
-
-.inputField { font-size: 26px !important; height: 58px; color: white; font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important; background-color: #1f272a !important; border-bottom-color: #898f91 !important; border-left-color: #898f91 !important; border-right-color: #898f91 !important; border-top-color: #898f91 !important; border-style: solid; margin-top: 1rem; }
-
-input:focus { outline: none !important; }
-
-.signUpBtn { background-color: white !important; height: 58px; color: #273135; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important; font-size: 26px !important; border-radius: 0px !important; margin-top: 1rem; }
-
+body { width: 100%; overflow-x: hidden; }
 body .homeBody { background-color: #253135; }
 body .coachingBody { background-color: #6c4800; }
 body .partnershipsBody { background-color: #4f5c2b; }
@@ -2758,7 +2719,13 @@ body .askBody { background-color: #4c5d22; }
 
 .a2512018boundlessprocopy .span2 { font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif; }
 
+.a2512018boundlessprocopy .span3 { float: right; }
+
 .footerContainer { background-color: rgba(255, 255, 255, 0); height: auto; margin-top: 4rem; margin-bottom: 4rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 5.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; max-width: 99%; }
+
+.footerColor { margin-top: 4rem; }
+
+.boundless2018 { border: solid green 3px; }
 
 .home-construction { background-color: rgba(255, 255, 255, 0); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); padding: 0px !important; margin: 0px !important; }
 
@@ -2766,7 +2733,7 @@ body .askBody { background-color: #4c5d22; }
 
 .ittakesmorethana { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
 
-.topLine { width: 90%; margin-top: 4rem; margin-bottom: 4rem; position: relative; min-height: 2px !important; border-top-width: 2px !important; border-image-width: 2px !important; border-color: #424b4e !important; left: 5%; }
+.topLine { width: 90%; margin-top: 4rem; margin-bottom: 4rem; position: relative; min-height: 2px !important; border-top-width: 2px !important; border-image-width: 2px !important; border-color: #424b4e !important; left: 10%; }
 
 .midLine { width: 83%; margin-top: 4rem; margin-bottom: 4rem; position: relative; min-height: 2px !important; border-top-width: 2px !important; border-image-width: 2px !important; border-color: #424b4e !important; left: 8.5%; }
 
@@ -2791,7 +2758,9 @@ body .askBody { background-color: #4c5d22; }
 .wevebeenbuilding .highlightLink { font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; line-height: 31px; margin: 0.5rem 0; text-decoration: underline; }
 
 .topContent { position: relative; max-width: 99%; }
-.topContent img { position: absolute; top: 13rem; max-width: 90%; }
+.topContent img { position: absolute; top: 7rem; max-width: 90%; }
+
+.oneone { border: dotted green 3px; }
 
 .homeSignUp { background-color: #253135; width: 100%; }
 

@@ -45,7 +45,7 @@
   border-top-width: 2px !important;
   border-image-width: 2px !important;
   border-color: #424b4e !important;
-  left: 5%;
+  left: 10%;
 }
 
 .midLine {
@@ -184,7 +184,11 @@
 
   img {
     position: absolute;
-    top: 13rem;
+    top: 7rem;
     max-width: 90%;
   }
+}
+
+.oneone {
+  border: dotted green 3px;
 }
