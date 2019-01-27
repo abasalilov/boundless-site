@@ -3,15 +3,8 @@
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
-  margin-left: 3rem;
-}
-
-img {
-  min-height: 1px;
-  max-width: 90%;
-  position: absolute;
-  top: 205px;
-  left: 40px;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 .helpingpeoplegrow {
@@ -23,7 +16,7 @@ img {
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 6.3em;
+  font-size: 4.3em;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -137,7 +130,7 @@ img {
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 6.3em;
+  font-size: 4.3em;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -152,7 +145,7 @@ img {
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 6.3em;
+  font-size: 4.3em;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -182,5 +175,16 @@ img {
     line-height: 31px;
     margin: 0.5rem 0;
     text-decoration: underline;
+  }
+}
+
+.topContent {
+  position: relative;
+  max-width: 99%;
+
+  img {
+    position: absolute;
+    top: 13rem;
+    max-width: 90%;
   }
 }

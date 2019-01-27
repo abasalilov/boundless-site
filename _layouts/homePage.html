@@ -1,11 +1,48 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<article>
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-  </header>
+{%- include head.html -%}
 
-  <section>{{ content }}</section>
-</article>
+<body>
+  <!--[if lte IE 9]>
+          <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please
+            <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+            your experience and security.
+          </p>
+        <![endif]-->
+  <script src="assets/javascript/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery ||
+      document.write(
+        '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>'
+      );
+  </script>
+  <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
+
+  <script src="assets/javascript/plugins.js"></script>
+  <script src="assets/javascript/main.js"></script>
+  <div class="container-fluid {{ page.title }}Body mx-0 px-0">
+    {%- include header.html -%}
+    <div class="page-content newIsh">
+      {%- include homeContent.html -%}
+    </div>
+
+    {%- include footer.html -%}
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </div>
+</body>
+
+</html>
