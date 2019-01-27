@@ -15,24 +15,12 @@
   width: 100%;
   min-width: 1440px;
   height: 100vh;
-  min-height: 1599px;
-  position: relative;
   overflow: hidden;
   margin: 0px;
-  background-color: rgba(255, 255, 255, 1);
   background-color: #674915;
 }
 a {
   text-decoration: none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.anima-full-width-a {
-  width: 100%;
-}
-.anima-full-height-a {
-  height: 100%;
 }
 div {
   -webkit-text-size-adjust: none;
@@ -80,9 +68,7 @@ div {
 .asanontechnicale {
   background-color: rgba(255, 255, 255, 0);
   height: auto;
-  width: calc(100% - 483px);
   margin: 0;
-  left: calc(0% + 242px);
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
@@ -310,4 +296,34 @@ div {
   color: rgba(252, 252, 252, 1);
   text-align: center;
   line-height: 31px;
+}
+
+.coachingText {
+  background-color: #674915 !important;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 4.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+}
+
+.coachingTitle {
+  background-color: #674915 !important;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 4.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
 }

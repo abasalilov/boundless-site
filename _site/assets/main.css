@@ -2693,7 +2693,7 @@ body { width: 100% !important; overflow-x: hidden !important; }
 
 .homeBody { background-color: #253135 !important; overflow-x: hidden !important; }
 
-.coachingBody { background-color: #6c4800; overflow-x: hidden !important; }
+.coachingBody { background-color: #6c4800; overflow-x: hidden !important; height: 100vh; min-height: 1399px; }
 
 .partnershipsBody { background-color: #4f5c2b; overflow-x: hidden !important; }
 
@@ -2706,15 +2706,9 @@ body { width: 100% !important; overflow-x: hidden !important; }
 @font-face { font-family: "BarlowCondensed-SemiBold"; src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Regular"; src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Bold"; src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype"); }
-.coaching { width: 100%; min-width: 1440px; height: 100vh; min-height: 1599px; position: relative; overflow: hidden; margin: 0px; background-color: white; background-color: #674915; }
+.coaching { width: 100%; min-width: 1440px; height: 100vh; overflow: hidden; margin: 0px; background-color: #674915; }
 
 a { text-decoration: none; }
-
-div { -webkit-text-size-adjust: none; }
-
-.anima-full-width-a { width: 100%; }
-
-.anima-full-height-a { height: 100%; }
 
 div { -webkit-text-size-adjust: none; }
 
@@ -2724,7 +2718,7 @@ div { -webkit-text-size-adjust: none; }
 
 .boundless { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 1243px); margin: 0; left: calc(0% + 114px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 48px; color: #fcfcfc; text-align: left; line-height: 90px; }
 
-.asanontechnicale { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 483px); margin: 0; left: calc(0% + 242px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
+.asanontechnicale { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
 
 .venturepartnerships { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 920px); margin: 0; left: calc(0% + 820px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; color: #424242; text-align: right; line-height: 22px; }
 
@@ -2759,6 +2753,10 @@ div { -webkit-text-size-adjust: none; }
 .coaching .rectanglecopy31 { background-color: #fcfcfc; height: 58px; width: 123px; margin: 0; left: 1032px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
 
 .coaching .signup { background-color: rgba(255, 255, 255, 0); height: auto; width: 99px; margin: 0; left: 1044px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 26px; color: #fcfcfc; text-align: center; line-height: 31px; }
+
+.coachingText { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 4.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+
+.coachingTitle { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 4.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
 
 .bhfooter { display: flex; flex-direction: row; justify-content: space-between; }
 
@@ -2820,8 +2818,6 @@ div { -webkit-text-size-adjust: none; }
 
 .topContent { position: relative; max-width: 99%; }
 .topContent img { position: absolute; top: 7rem; max-width: 90%; }
-
-.oneone { border: dotted green 3px; }
 
 .homeSignUp { background-color: #253135; width: 100%; }
 
