@@ -24,16 +24,13 @@
 
     <script src="assets/javascript/plugins.js"></script>
     <script src="assets/javascript/main.js"></script>
-<div>
+<div class="container-fluid">
     {%- include header.html -%}
-    <div class="py-5">
       <div class="page-content">
           {{ content }}
       </div>
-    </div>
 
     {%- include footer.html -%}
-    </div>
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
           window.ga = function () {
@@ -45,7 +42,7 @@
           ga("send", "pageview");
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-
+    </div>
   </body>
 
 </html>
