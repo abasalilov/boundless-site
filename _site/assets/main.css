@@ -2677,7 +2677,7 @@ green     #859900  operators, other keywords
 
 .venturepartnerships { font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; }
 
-.joinCopy { font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+.joinCopy { font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); padding-bottom: 2rem; }
 
 .signUpCopy { background-color: rgba(255, 255, 255, 0); height: auto; margin-top: 4rem; margin-bottom: 4rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
 
@@ -2779,8 +2779,6 @@ div { -webkit-text-size-adjust: none; }
 .a2512018boundlessprocopy .span3 { float: right; }
 
 .footerContainer { background-color: rgba(255, 255, 255, 0); height: auto; margin-top: 4rem; margin-bottom: 4rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 5.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; max-width: 99%; }
-
-.footerColor { margin-top: 4rem; }
 
 .boundless2018 { border: solid green 3px; }
 
