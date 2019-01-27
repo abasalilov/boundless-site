@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BarlowCondensed-Regular";
+  src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype");
+}
+
+.coaching {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 1599px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  background-color: #674915;
+}
+a {
+  text-decoration: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width: 100%;
+}
+.anima-full-height-a {
+  height: 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.coaching .rectangle {
+  background-color: rgba(108, 72, 0, 1);
+  height: 1608px;
+  width: 1440px;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.coachingcontent {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: calc(100% - 1139px);
+  margin: 0;
+  left: calc(0% + 236px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 92px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 90px;
+}
+.boundless {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: calc(100% - 1243px);
+  margin: 0;
+  left: calc(0% + 114px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 48px;
+  color: rgba(252, 252, 252, 1);
+  text-align: left;
+  line-height: 90px;
+}
+.asanontechnicale {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: calc(100% - 483px);
+  margin: 0;
+  left: calc(0% + 242px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+.venturepartnerships {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: calc(100% - 920px);
+  margin: 0;
+  left: calc(0% + 820px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(66, 66, 66, 1);
+  text-align: right;
+  line-height: 22px;
+}
+.rectanglecopy3 {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 77px;
+  width: calc(100% - 1306px);
+  margin: 0;
+  left: calc(0% + 1306px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.workwithus {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: calc(100% - 1357px);
+  margin: 0;
+  left: calc(0% + 1323px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(252, 252, 252, 1);
+  text-align: right;
+  line-height: 27px;
+}
+.linecopy5 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 2px;
+  width: 1221px;
+  margin: 0;
+  left: 233px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.linecopy7 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 2px;
+  width: 63px;
+  margin: 0;
+  left: 1018px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.venturepartnershipscopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 522px;
+  margin: 0;
+  left: 628px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 18px;
+  color: rgba(66, 66, 66, 1);
+  text-align: right;
+  line-height: 22px;
+}
+.signupforcuratedcopy {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 921px;
+  margin: 0;
+  left: 236px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 92px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 90px;
+}
+.joinouremailnewslcopy {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 810px;
+  margin: 0;
+  left: 240px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+.quoralinkedintwittcopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 221px;
+  margin: 0;
+  left: 246px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.8;
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 24px;
+}
+.rectanglecopy7 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 58px;
+  width: 295px;
+  margin: 0;
+  left: 240px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.coaching .rectanglecopy8 {
+  background-color: rgba(255, 255, 255, 0);
+  height: 58px;
+  width: 485px;
+  margin: 0;
+  left: 541px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.coaching .a2512018boundlessprocopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 221px;
+  margin: 0;
+  left: 929px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.8;
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-align: right;
+  line-height: 24px;
+}
+.coaching .a2512018boundlessprocopy2 .span1 {
+}
+.coaching .a2512018boundlessprocopy2 .span2 {
+  font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif;
+}
+.coaching .a2512018boundlessprocopy2 .span3 {
+}
+.coaching .yournamecopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 162px;
+  margin: 0;
+  left: 254px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+.coaching .emailcopy2 {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 206px;
+  margin: 0;
+  left: 558px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+.coaching .rectanglecopy31 {
+  background-color: rgba(252, 252, 252, 1);
+  height: 58px;
+  width: 123px;
+  margin: 0;
+  left: 1032px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+.coaching .signup {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 99px;
+  margin: 0;
+  left: 1044px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(252, 252, 252, 1);
+  text-align: center;
+  line-height: 31px;
+}
