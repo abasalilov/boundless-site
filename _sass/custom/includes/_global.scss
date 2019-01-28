@@ -7,11 +7,11 @@
 }
 
 .nav-link {
-  color: $secondary !important;
+  color: $menu !important;
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
 
   &:hover {
-    color: $secondary !important;
+    color: $menu !important;
   }
 }
 
@@ -89,22 +89,30 @@
   align-items: center;
 }
 
-.inputField {
+input {
   font-size: 26px !important;
   height: 58px;
   color: white;
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important;
-  background-color: #1f272a !important;
-  border-bottom-color: #898f91 !important;
-  border-left-color: #898f91 !important;
-  border-right-color: #898f91 !important;
-  border-top-color: #898f91 !important;
+  border-bottom-color: #bfc2c3 !important;
+  border-left-color: #bfc2c3 !important;
+  border-right-color: #bfc2c3 !important;
+  border-top-color: #bfc2c3 !important;
   border-style: solid;
   margin-top: 1rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  text-align: left;
 }
 
 input:focus {
   outline: none !important;
+}
+
+input::placeholder {
+  color: white;
 }
 
 .signUpBtn {
@@ -189,4 +197,35 @@ body {
   color: rgba(252, 252, 252, 1);
   text-align: right;
   line-height: 27px;
+}
+
+.homeInputField {
+  background-color: rgba(37, 49, 53, 1) !important;
+  overflow-x: hidden !important;
+}
+
+.coachingInputField {
+  background-color: #523a11;
+  overflow-x: hidden !important;
+  border-color: #837358 !important;
+}
+
+.partnershipsInputField {
+  background-color: #4f5c2b;
+  overflow-x: hidden !important;
+}
+
+.appDevInputField {
+  background-color: rgba(60, 3, 32, 1);
+  overflow-x: hidden !important;
+}
+
+.aboutInputField {
+  background-color: rgba(76, 93, 34, 1);
+  overflow-x: hidden !important;
+}
+
+.askInputField {
+  background-color: rgba(76, 93, 34, 1);
+  overflow-x: hidden !important;
 }

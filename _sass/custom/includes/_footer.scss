@@ -46,6 +46,14 @@
   color: #fcfcfc;
   text-align: left;
   line-height: 24px;
+  width: 6rem;
+
+  a {
+    color: #fcfcfc;
+  }
+  a:hover {
+    color: rgba(37, 49, 53, 1);
+  }
 }
 
 .footerNav {
@@ -92,5 +100,4 @@
 }
 
 .boundless2018 {
-  border: solid green 3px;
 }
