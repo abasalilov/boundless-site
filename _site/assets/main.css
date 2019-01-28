@@ -2661,7 +2661,7 @@ green     #859900  operators, other keywords
 .nav-link { color: #6c757d !important; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; }
 .nav-link:hover { color: #6c757d !important; }
 
-.homeHeader { background-color: #253135; display: flex !important; flex-direction: row !important; }
+.homeHeader { background-color: #253135; }
 
 .coachingHeader { background-color: #6c4800; }
 
