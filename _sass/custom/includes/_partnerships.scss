@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "BarlowCondensed-SemiBold";
+  src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BarlowCondensed-Regular";
+  src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype");
+}
+
+.venturepartnershipspg {
+  width: 100%;
+  min-width: 1440px;
+  height: 100vh;
+  min-height: 5249px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  background-color: #545a36;
+}
+a {
+  text-decoration: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+
+.aventurepartnershi1 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 912px;
+  height: auto;
+  width: calc(100% - 483px);
+  position: absolute;
+  margin: 0;
+  left: calc(0% + 247px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+.aventurepartnershi2 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1877px;
+  height: auto;
+  width: calc(100% - 483px);
+  position: absolute;
+  margin: 0;
+  left: calc(0% + 247px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+.thefoundersofslp {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2649px;
+  height: auto;
+  width: calc(100% - 483px);
+  position: absolute;
+  margin: 0;
+  left: calc(0% + 240px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+.thefoundersofpart {
+  background-color: rgba(255, 255, 255, 0);
+  top: 3687px;
+  height: auto;
+  width: calc(100% - 483px);
+  position: absolute;
+  margin: 0;
+  left: calc(0% + 240px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 31px;
+}
+
+.partnershipsText {
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 6.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+}
+
+.partnershipsTitle {
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 6.3em;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  line-height: 1.05em;
+}
+
+.slpToolKitImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
+
+.pdContainer {
+  border: solid red 2px;
+}

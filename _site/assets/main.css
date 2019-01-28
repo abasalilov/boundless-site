@@ -2658,10 +2658,10 @@ green     #859900  operators, other keywords
 /* Literal.Number.Integer.Long */
 .navbar .nav-item { font-size: 1.2rem; margin: 0; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; }
 
-.nav-link { color: #6c757d !important; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; }
-.nav-link:hover { color: #6c757d !important; }
+.nav-link { color: #fcfcfc !important; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; }
+.nav-link:hover { color: #fcfcfc !important; }
 
-.homeHeader { background-color: #253135; display: flex !important; flex-direction: row !important; }
+.homeHeader { background-color: #253135; }
 
 .coachingHeader { background-color: #6c4800; }
 
@@ -2675,7 +2675,7 @@ green     #859900  operators, other keywords
 
 .boundless { height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 48px; color: #fcfcfc; text-align: left; line-height: 90px; }
 
-.venturepartnerships { font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; }
+.venturepartnershipspg { font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; }
 
 .joinCopy { font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); padding-bottom: 2rem; }
 
@@ -2683,10 +2683,12 @@ green     #859900  operators, other keywords
 
 .signupRow { font-size: 1rem !important; height: 58px; align-items: center; }
 
-.inputField { font-size: 26px !important; height: 58px; color: white; font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important; background-color: #1f272a !important; border-bottom-color: #898f91 !important; border-left-color: #898f91 !important; border-right-color: #898f91 !important; border-top-color: #898f91 !important; border-style: solid; margin-top: 1rem; }
+input { font-size: 26px !important; height: 58px; color: white; font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important; border-bottom-color: #bfc2c3 !important; border-left-color: #bfc2c3 !important; border-right-color: #bfc2c3 !important; border-top-color: #bfc2c3 !important; border-style: solid; margin-top: 1rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; text-align: left; }
 
 @media only screen and (max-width: 768px) { .emailField { padding: 0; } }
 input:focus { outline: none !important; }
+
+input::placeholder { color: white; }
 
 .signUpBtn { background-color: white !important; height: 58px; color: #273135; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important; font-size: 26px !important; border-radius: 0px !important; margin-top: 1rem; }
 
@@ -2698,35 +2700,80 @@ body { width: 100% !important; overflow-x: hidden !important; }
 .coachingBody .midLine { width: 85%; left: 15%; border-color: #7a6032 !important; }
 
 .partnershipsBody { background-color: #4f5c2b; overflow-x: hidden !important; }
+.partnershipsBody .midLine { width: 85%; left: 15%; border-color: #64733f !important; }
 
-.appDevBody { background-color: #3c0320; overflow-x: hidden !important; }
+.appDevBody { background-color: #3c0320 !important; overflow-x: hidden !important; }
 
 .aboutBody { background-color: #4c5d22; overflow-x: hidden !important; }
 
 .askBody { background-color: #4c5d22; overflow-x: hidden !important; }
 
+.workWithUsContainer { background-color: rgba(255, 255, 255, 0.7); top: 250px; height: 77px; width: 134px; position: fixed; margin: 0; left: calc(100% - 134px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); display: flex; align-items: center; justify-content: center; z-index: 20; }
+
+.workwithus { background-color: rgba(255, 255, 255, 0); height: auto; width: 85px; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 26px; color: #fcfcfc; text-align: right; line-height: 27px; }
+
+.homeInputField { background-color: #253135 !important; overflow-x: hidden !important; }
+
+.coachingInputField { background-color: #523a11; overflow-x: hidden !important; border-color: #837358 !important; }
+
+.partnershipsInputField { background-color: #4f5c2b; overflow-x: hidden !important; }
+
+.appDevInputField { background-color: #3c0320; overflow-x: hidden !important; }
+
+.aboutInputField { background-color: #4c5d22; overflow-x: hidden !important; }
+
+.askInputField { background-color: #4c5d22; overflow-x: hidden !important; }
+
+.bitmap { background-color: #354017 !important; }
+
+.venturepartnershipspg .group33 { background-color: rgba(255, 255, 255, 0); height: 400px; width: 525px; position: relative; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); margin-top: 3rem; }
+
+.venturepartnershipspg .group33 .fill1 { background-color: rgba(255, 255, 255, 0); top: 0px; height: 182px; width: 211px; position: absolute; margin: 0; left: 145px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .group5 { background-color: rgba(255, 255, 255, 0); top: 208px; height: 78px; width: 100px; position: absolute; margin: 0; left: 376px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .group5 .group51 { background-color: rgba(255, 255, 255, 0); top: 0px; height: 78px; width: 100px; position: relative; margin: 0; left: 0px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .group8 { background-color: rgba(255, 255, 255, 0); top: 208px; height: 78px; width: 100px; position: absolute; margin: 0; left: 0px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .group8 .group81 { background-color: rgba(255, 255, 255, 0); top: 0px; height: 78px; width: 100px; position: relative; margin: 0; left: 0px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill9 { background-color: rgba(255, 255, 255, 0); top: 208px; height: 78px; width: 76px; position: absolute; margin: 0; left: 301px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill11 { background-color: rgba(255, 255, 255, 0); top: 299px; height: 31px; width: 41px; position: absolute; margin: 0; left: 289px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill13 { background-color: rgba(255, 255, 255, 0); top: 299px; height: 31px; width: 40px; position: absolute; margin: 0; left: 361px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill15 { background-color: rgba(255, 255, 255, 0); top: 299px; height: 31px; width: 39px; position: absolute; margin: 0; left: 403px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill17 { background-color: rgba(255, 255, 255, 0); top: 299px; height: 31px; width: 31px; position: absolute; margin: 0; left: 445px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill19 { background-color: rgba(255, 255, 255, 0); top: 299px; height: 31px; width: 31px; position: absolute; margin: 0; left: 332px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill21 { background-color: rgba(255, 255, 255, 0); top: 160px; height: 23px; width: 18px; position: absolute; margin: 0; left: 349px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill23 { background-color: rgba(255, 255, 255, 0); top: 169px; height: 2px; width: 2px; position: absolute; margin: 0; left: 352px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill25 { background-color: rgba(255, 255, 255, 0); top: 208px; height: 78px; width: 96px; position: absolute; margin: 0; left: 104px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill27 { background-color: rgba(255, 255, 255, 0); top: 208px; height: 78px; width: 99px; position: absolute; margin: 0; left: 206px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill29 { background-color: rgba(255, 255, 255, 0); top: 299px; height: 31px; width: 39px; position: absolute; margin: 0; left: 250px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.venturepartnershipspg .group33 .fill31 { background-color: rgba(255, 255, 255, 0); top: 54px; height: 70px; width: 70px; position: absolute; margin: 0; left: 202px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.groupContainer { width: 100%; display: flex; justify-content: center; align-content: center; background-color: #373f1d !important; }
+
 @font-face { font-family: "BarlowCondensed-SemiBold"; src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Regular"; src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Bold"; src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype"); }
-.coaching { width: 100%; min-width: 1440px; height: 100vh; overflow: hidden; margin: 0px; background-color: #674915; }
+.coaching { width: 100%; min-width: 1440px; height: 100vh; overflow: hidden; margin: 0px; }
 
 a { text-decoration: none; }
 
 div { -webkit-text-size-adjust: none; }
 
-.coaching .rectangle { background-color: #6c4800; height: 1608px; width: 1440px; margin: 0; left: 0px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
-
-.coachingcontent { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 1139px); margin: 0; left: calc(0% + 236px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 92px; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 90px; }
-
-.boundless { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 1243px); margin: 0; left: calc(0% + 114px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 48px; color: #fcfcfc; text-align: left; line-height: 90px; }
-
-.asanontechnicale { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
-
-.venturepartnerships { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; left: calc(0% + 820px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; color: #424242; text-align: right; line-height: 22px; }
-
-.rectanglecopy3 { background-color: rgba(255, 255, 255, 0.7); height: 77px; width: calc(100% - 1306px); margin: 0; left: calc(0% + 1306px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
-
-.workwithus { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 1357px); margin: 0; left: calc(0% + 1323px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 26px; color: #fcfcfc; text-align: right; line-height: 27px; }
+.asanontechnicale { height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; text-align: left; line-height: 31px; }
 
 .linecopy5 { background-color: rgba(255, 255, 255, 0); height: 2px; width: 1221px; margin: 0; left: 233px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
 
@@ -2736,8 +2783,6 @@ div { -webkit-text-size-adjust: none; }
 
 .joinouremailnewslcopy { background-color: rgba(255, 255, 255, 0); height: auto; width: 810px; margin: 0; left: 240px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
 
-.quoralinkedintwittcopy2 { background-color: rgba(255, 255, 255, 0); height: auto; width: 221px; margin: 0; left: 246px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); opacity: 0.8; font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 20px; color: white; text-align: left; line-height: 24px; }
-
 .rectanglecopy7 { background-color: rgba(255, 255, 255, 0); height: 58px; width: 295px; margin: 0; left: 240px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
 
 .coaching .rectanglecopy8 { background-color: rgba(255, 255, 255, 0); height: 58px; width: 485px; margin: 0; left: 541px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
@@ -2746,9 +2791,49 @@ div { -webkit-text-size-adjust: none; }
 
 .coaching .a2512018boundlessprocopy2 .span2 { font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif; }
 
-.coachingText { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+.coachingText { height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
 
-.coachingTitle { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+.coachingTitle { height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+
+@font-face { font-family: "BarlowCondensed-SemiBold"; src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "BarlowCondensed-Regular"; src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype"); }
+@font-face { font-family: "BarlowCondensed-Bold"; src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype"); }
+@font-face { font-family: "BarlowCondensed-SemiBold"; src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "BarlowCondensed-Regular"; src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype"); }
+@font-face { font-family: "BarlowCondensed-Bold"; src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype"); }
+.appdevelopment { width: 100%; min-width: 1440px; height: 100vh; overflow: hidden; margin: 0px; background-color: #3c0320; }
+
+a { text-decoration: none; }
+
+div { -webkit-text-size-adjust: none; }
+
+.asanontechnicale { height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; text-align: left; line-height: 31px; color: white; }
+
+.appdevelopmentcont { background-color: rgba(255, 255, 255, 0); top: calc(0% + 231px); height: auto; width: calc(100% - 873px); position: absolute; margin: 0; left: calc(0% + 236px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 92px; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 90px; }
+
+.linecopy5 { background-color: rgba(255, 255, 255, 0); height: 2px; width: 1221px; margin: 0; left: 233px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.linecopy7 { background-color: rgba(255, 255, 255, 0); height: 2px; width: 63px; margin: 0; left: 1018px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.signupforcuratedcopy { background-color: rgba(255, 255, 255, 0); height: auto; width: 921px; margin: 0; left: 236px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 92px; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 90px; }
+
+.joinouremailnewslcopy { background-color: rgba(255, 255, 255, 0); height: auto; width: 810px; margin: 0; left: 240px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
+
+.rectanglecopy7 { background-color: rgba(255, 255, 255, 0); height: 58px; width: 295px; margin: 0; left: 240px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.appdevelopment .rectanglecopy8 { background-color: rgba(255, 255, 255, 0); height: 58px; width: 485px; margin: 0; left: 541px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+
+.appdevelopment .a2512018boundlessprocopy2 { background-color: rgba(255, 255, 255, 0); height: auto; width: 221px; margin: 0; left: 929px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); opacity: 0.8; font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 20px; color: white; text-align: right; line-height: 24px; }
+
+.appdevelopment .a2512018boundlessprocopy2 .span2 { font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif; }
+
+.appdevelopmentText { height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+
+.appdevelopmentTitle { height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+
+.appDevText { height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+
+.appDevTitle { height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
 
 .bhfooter { display: flex; flex-direction: row; justify-content: space-between; }
 
@@ -2764,7 +2849,9 @@ div { -webkit-text-size-adjust: none; }
 
 .askFooter { background-color: #4c5d22; width: 100%; }
 
-.quoralinkedintwittcopy { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 20px; color: #fcfcfc; text-align: left; line-height: 24px; }
+.quoralinkedintwittcopy { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 20px; color: #fcfcfc; text-align: left; line-height: 24px; width: 6rem; }
+.quoralinkedintwittcopy a { color: #fcfcfc; }
+.quoralinkedintwittcopy a:hover { color: #253135; }
 
 .footerNav-wrapper { padding-right: 0.5rem; }
 
@@ -2785,6 +2872,7 @@ div { -webkit-text-size-adjust: none; }
 .home-construction { background-color: rgba(255, 255, 255, 0); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); padding: 0px !important; margin: 0px !important; }
 
 .helpingpeoplegrow { background-color: rgba(255, 255, 255, 0) !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 4.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+.helpingpeoplegrow .text-info { color: rgba(255, 255, 255, 0.8) !important; }
 
 .ittakesmorethana { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
 

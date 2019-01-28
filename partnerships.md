@@ -1,5 +1,5 @@
 ---
 layout: partnershipsPage
-title: "Venture Partnerships"
+title: "partnerships"
 permalink: "/venture-partnerships/"
 ---
