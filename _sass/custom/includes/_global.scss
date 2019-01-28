@@ -132,8 +132,13 @@ body {
 .coachingBody {
   background-color: rgba(108, 72, 0, 1);
   overflow-x: hidden !important;
-  height: 100vh;
-  min-height: 1399px;
+  color: #d2c9b9 !important;
+
+  .midLine {
+    width: 85%;
+    left: 15%;
+    border-color: #7a6032 !important;
+  }
 }
 
 .partnershipsBody {

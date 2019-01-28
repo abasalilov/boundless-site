@@ -2693,7 +2693,8 @@ body { width: 100% !important; overflow-x: hidden !important; }
 
 .homeBody { background-color: #253135 !important; overflow-x: hidden !important; }
 
-.coachingBody { background-color: #6c4800; overflow-x: hidden !important; height: 100vh; min-height: 1399px; }
+.coachingBody { background-color: #6c4800; overflow-x: hidden !important; color: #d2c9b9 !important; }
+.coachingBody .midLine { width: 85%; left: 15%; border-color: #7a6032 !important; }
 
 .partnershipsBody { background-color: #4f5c2b; overflow-x: hidden !important; }
 
@@ -2730,8 +2731,6 @@ div { -webkit-text-size-adjust: none; }
 
 .linecopy7 { background-color: rgba(255, 255, 255, 0); height: 2px; width: 63px; margin: 0; left: 1018px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
 
-.venturepartnershipscopy2 { background-color: rgba(255, 255, 255, 0); height: auto; width: 522px; margin: 0; left: 628px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; color: #424242; text-align: right; line-height: 22px; }
-
 .signupforcuratedcopy { background-color: rgba(255, 255, 255, 0); height: auto; width: 921px; margin: 0; left: 236px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 92px; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 90px; }
 
 .joinouremailnewslcopy { background-color: rgba(255, 255, 255, 0); height: auto; width: 810px; margin: 0; left: 240px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
@@ -2746,31 +2745,23 @@ div { -webkit-text-size-adjust: none; }
 
 .coaching .a2512018boundlessprocopy2 .span2 { font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif; }
 
-.coaching .yournamecopy2 { background-color: rgba(255, 255, 255, 0); height: auto; width: 162px; margin: 0; left: 254px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
+.coachingText { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
 
-.coaching .emailcopy2 { background-color: rgba(255, 255, 255, 0); height: auto; width: 206px; margin: 0; left: 558px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
-
-.coaching .rectanglecopy31 { background-color: #fcfcfc; height: 58px; width: 123px; margin: 0; left: 1032px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
-
-.coaching .signup { background-color: rgba(255, 255, 255, 0); height: auto; width: 99px; margin: 0; left: 1044px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 26px; color: #fcfcfc; text-align: center; line-height: 31px; }
-
-.coachingText { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 4.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
-
-.coachingTitle { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 4.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
+.coachingTitle { background-color: #674915 !important; height: auto; margin-top: 4rem; margin-bottom: 2rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 6.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; }
 
 .bhfooter { display: flex; flex-direction: row; justify-content: space-between; }
 
 .homeFooter { background-color: #253135; width: 100%; }
 
-.coachingFooter { background-color: #6c4800; position: absolute; bottom: 0; width: 100%; }
+.coachingFooter { background-color: #6c4800; width: 100%; }
 
-.partnershipsFooter { background-color: #4f5c2b; position: absolute; bottom: 0; width: 100%; }
+.partnershipsFooter { background-color: #4f5c2b; width: 100%; }
 
-.appDevFooter { background-color: #3c0320; position: absolute; bottom: 0; width: 100%; }
+.appDevFooter { background-color: #3c0320; width: 100%; }
 
-.aboutFooter { background-color: #4c5d22; position: absolute; bottom: 0; width: 100%; }
+.aboutFooter { background-color: #4c5d22; width: 100%; }
 
-.askFooter { background-color: #4c5d22; position: absolute; bottom: 0; width: 100%; }
+.askFooter { background-color: #4c5d22; width: 100%; }
 
 .quoralinkedintwittcopy { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 20px; color: #fcfcfc; text-align: left; line-height: 24px; }
 
@@ -2821,15 +2812,15 @@ div { -webkit-text-size-adjust: none; }
 
 .homeSignUp { background-color: #253135; width: 100%; }
 
-.coachingSignUp { background-color: #6c4800; position: absolute; bottom: 0; width: 100%; }
+.coachingSignUp { background-color: #6c4800; width: 100%; }
 
-.partnershipsSignUp { background-color: #4f5c2b; position: absolute; bottom: 0; width: 100%; }
+.partnershipsSignUp { background-color: #4f5c2b; width: 100%; }
 
-.appDevSignUp { background-color: #3c0320; position: absolute; bottom: 0; width: 100%; }
+.appDevSignUp { background-color: #3c0320; width: 100%; }
 
-.aboutSignUp { background-color: #4c5d22; position: absolute; bottom: 0; width: 100%; }
+.aboutSignUp { background-color: #4c5d22; width: 100%; }
 
-.askSignUp { background-color: #4c5d22; position: absolute; bottom: 0; width: 100%; }
+.askSignUp { background-color: #4c5d22; width: 100%; }
 
 @font-face { font-family: "BarlowCondensed-SemiBold"; src: url("./fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Regular"; src: url("./fonts/BarlowCondensed-Regular.ttf") format("truetype"); }
