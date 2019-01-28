@@ -160,3 +160,35 @@ body {
   background-color: rgba(76, 93, 34, 1);
   overflow-x: hidden !important;
 }
+
+.workWithUsContainer {
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 250px;
+  height: 77px;
+  width: 134px;
+  position: fixed;
+  margin: 0;
+  left: calc(100% - 134px);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.workwithus {
+  background-color: rgba(255, 255, 255, 0);
+  height: auto;
+  width: 85px;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
+  font-size: 26px;
+  color: rgba(252, 252, 252, 1);
+  text-align: right;
+  line-height: 27px;
+}

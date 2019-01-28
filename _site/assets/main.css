@@ -2704,6 +2704,10 @@ body { width: 100% !important; overflow-x: hidden !important; }
 
 .askBody { background-color: #4c5d22; overflow-x: hidden !important; }
 
+.workWithUsContainer { background-color: rgba(255, 255, 255, 0.7); top: 250px; height: 77px; width: 134px; position: fixed; margin: 0; left: calc(100% - 134px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); display: flex; align-items: center; justify-content: center; z-index: 20; }
+
+.workwithus { background-color: rgba(255, 255, 255, 0); height: auto; width: 85px; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 26px; color: #fcfcfc; text-align: right; line-height: 27px; }
+
 @font-face { font-family: "BarlowCondensed-SemiBold"; src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Regular"; src: url("../fonts/BarlowCondensed-Regular.ttf") format("truetype"); }
 @font-face { font-family: "BarlowCondensed-Bold"; src: url("../fonts/BarlowCondensed-Bold.ttf") format("truetype"); }
@@ -2713,19 +2717,11 @@ a { text-decoration: none; }
 
 div { -webkit-text-size-adjust: none; }
 
-.coaching .rectangle { background-color: #6c4800; height: 1608px; width: 1440px; margin: 0; left: 0px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
+.asanontechnicale { background-color: #674915; height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; text-align: left; line-height: 31px; }
 
-.coachingcontent { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 1139px); margin: 0; left: calc(0% + 236px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 92px; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 90px; }
-
-.boundless { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 1243px); margin: 0; left: calc(0% + 114px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 48px; color: #fcfcfc; text-align: left; line-height: 90px; }
-
-.asanontechnicale { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 26px; color: rgba(255, 255, 255, 0.8); text-align: left; line-height: 31px; }
-
-.venturepartnerships { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; left: calc(0% + 820px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; color: #424242; text-align: right; line-height: 22px; }
+.venturepartnerships { height: auto; margin: 0; left: calc(0% + 820px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 18px; color: #424242; text-align: right; line-height: 22px; }
 
 .rectanglecopy3 { background-color: rgba(255, 255, 255, 0.7); height: 77px; width: calc(100% - 1306px); margin: 0; left: calc(0% + 1306px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
-
-.workwithus { background-color: rgba(255, 255, 255, 0); height: auto; width: calc(100% - 1357px); margin: 0; left: calc(0% + 1323px); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 26px; color: #fcfcfc; text-align: right; line-height: 27px; }
 
 .linecopy5 { background-color: rgba(255, 255, 255, 0); height: 2px; width: 1221px; margin: 0; left: 233px; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); }
 
