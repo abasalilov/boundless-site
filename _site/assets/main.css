@@ -2685,6 +2685,7 @@ green     #859900  operators, other keywords
 
 .inputField { font-size: 26px !important; height: 58px; color: white; font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important; background-color: #1f272a !important; border-bottom-color: #898f91 !important; border-left-color: #898f91 !important; border-right-color: #898f91 !important; border-top-color: #898f91 !important; border-style: solid; margin-top: 1rem; }
 
+@media only screen and (max-width: 768px) { .emailField { padding: 0; } }
 input:focus { outline: none !important; }
 
 .signUpBtn { background-color: white !important; height: 58px; color: #273135; font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important; font-size: 26px !important; border-radius: 0px !important; margin-top: 1rem; }
@@ -2765,17 +2766,21 @@ div { -webkit-text-size-adjust: none; }
 
 .quoralinkedintwittcopy { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 20px; color: #fcfcfc; text-align: left; line-height: 24px; }
 
-.footerNav { font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 18px; }
+.footerNav-wrapper { padding-right: 0.5rem; }
+
+.footerNav { font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 18px; text-align: right; }
+
+.footerNav a { display: inline-block; }
 
 .a2512018boundlessprocopy { background-color: rgba(255, 255, 255, 0); height: auto; margin: 0; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif; font-size: 20px; color: rgba(255, 255, 255, 0.8); text-align: right; line-height: 24px; }
 
 .a2512018boundlessprocopy .span2 { font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif; }
 
-.a2512018boundlessprocopy .span3 { float: right; }
+.a2512018boundlessprocopy .span3 { font-size: 16px; color: rgba(255, 255, 255, 0.7); padding: 10px 0; }
 
 .footerContainer { background-color: rgba(255, 255, 255, 0); height: auto; margin-top: 4rem; margin-bottom: 4rem; -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif; font-size: 5.3em; color: rgba(255, 255, 255, 0.7); text-align: left; line-height: 1.05em; max-width: 99%; }
 
-.boundless2018 { border: solid green 3px; }
+.boundless2018 .span1 { color: rgba(255, 255, 255, 0.7); }
 
 .home-construction { background-color: rgba(255, 255, 255, 0); -ms-transform: rotate(0deg); /* IE 9 */ -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */ transform: rotate(0deg); padding: 0px !important; margin: 0px !important; }
 
