@@ -38,8 +38,10 @@
   background-color: rgba(255, 255, 255, 0);
   height: auto;
   margin: 0;
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
   font-size: 20px;
@@ -56,17 +58,28 @@
   }
 }
 
+.footerNav-wrapper {
+  padding-right: 0.5rem;
+}
+
 .footerNav {
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
   font-size: 18px;
+  text-align: right;
+}
+
+.footerNav a {
+  display: inline-block;
 }
 
 .a2512018boundlessprocopy {
   background-color: rgba(255, 255, 255, 0);
   height: auto;
   margin: 0;
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
   font-size: 20px;
@@ -74,13 +87,15 @@
   text-align: right;
   line-height: 24px;
 }
-.a2512018boundlessprocopy .span1 {
-}
+
 .a2512018boundlessprocopy .span2 {
   font-family: "BarlowCondensed-Bold", Helvetica, Arial, serif;
 }
+
 .a2512018boundlessprocopy .span3 {
-  float: right;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 10px 0;
 }
 
 .footerContainer {
@@ -88,8 +103,10 @@
   height: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
   font-size: 5.3em;
@@ -99,5 +116,6 @@
   max-width: 99%;
 }
 
-.boundless2018 {
+.boundless2018 .span1 {
+  color: rgba(255, 255, 255, 0.7);
 }

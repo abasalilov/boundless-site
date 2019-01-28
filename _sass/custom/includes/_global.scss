@@ -9,7 +9,6 @@
 .nav-link {
   color: $menu !important;
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-
   &:hover {
     color: $menu !important;
   }
@@ -42,8 +41,10 @@
 .boundless {
   height: auto;
   margin: 0;
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
   font-size: 48px;
@@ -62,8 +63,10 @@
   font-size: 26px;
   color: rgba(255, 255, 255, 0.8);
   text-align: left;
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   padding-bottom: 2rem;
 }
@@ -73,8 +76,10 @@
   height: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
   font-size: 6.3em;
@@ -105,6 +110,12 @@ input {
   transform: rotate(0deg);
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
   text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .emailField {
+    padding: 0;
+  }
 }
 
 input:focus {
@@ -139,7 +150,6 @@ body {
   background-color: rgba(108, 72, 0, 1);
   overflow-x: hidden !important;
   color: #d2c9b9 !important;
-
   .midLine {
     width: 85%;
     left: 15%;
