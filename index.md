@@ -1,5 +1,6 @@
 ---
-layout: homePage
-title: "home"
+title: home
 permalink: "/"
+layout: homePage
 ---
+
