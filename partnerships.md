@@ -1,6 +1,5 @@
 ---
-title: partnerships
-permalink: "/venture-partnerships/"
 layout: partnershipsPage
+title: "partnerships"
+permalink: "/venture-partnerships/"
 ---
-

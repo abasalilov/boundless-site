@@ -1,6 +1,5 @@
 ---
-title: home
-permalink: "/"
 layout: homePage
+title: "home"
+permalink: "/"
 ---
-
