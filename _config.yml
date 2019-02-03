@@ -1,6 +1,6 @@
 ---
 title: Boundless
-timezone: UTC
+timezone: America/Phoenix
 collections:
   posts:
     title: Posts
@@ -12,11 +12,17 @@ email: info@boundless.com
 description: Boundless
 repository: abasalilov/boundless-site
 plugins:
-- jekyll-feed
-- jekyll-sitemap
-header_pages: 
+  - jekyll-feed
+  - jekyll-sitemap
+header_pages:
 exclude:
-- Gemfile
-- Gemfile.lock
-- node_modules
-- update_boostrap.sh
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
+markdown: kramdown
+permalink: pretty
+sass:
+  load_paths:
+    - _sass
+    - node_modules
