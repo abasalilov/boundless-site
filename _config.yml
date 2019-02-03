@@ -16,7 +16,6 @@ plugins:
   - jekyll-sitemap
 header_pages:
 exclude:
-  - Gemfile
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
