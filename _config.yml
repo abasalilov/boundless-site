@@ -12,16 +12,16 @@ email: info@boundless.com
 description: Boundless
 repository: abasalilov/boundless-site
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-header_pages:
+- jekyll-feed
+- jekyll-sitemap
+header_pages: 
 exclude:
-  - Gemfile.lock
-  - node_modules
-  - update_boostrap.sh
+- Gemfile.lock
+- node_modules
+- update_boostrap.sh
 markdown: kramdown
 permalink: pretty
 sass:
   load_paths:
-    - _sass
-    - node_modules
+  - _sass
+  - node_modules
