@@ -40,15 +40,15 @@
 }
 
 .topLine {
-  width: 89%;
-  margin-top: 4rem;
+  width: 90%;
+  margin-top: 6rem;
   margin-bottom: 4rem;
   position: relative;
   min-height: 2px !important;
   border-top-width: 2px !important;
   border-image-width: 2px !important;
   border-color: #424b4e !important;
-  left: 11%;
+  left: 10%;
 }
 
 .midLine {
@@ -127,13 +127,13 @@
 .askboundless {
   background-color: rgba(255, 255, 255, 0);
   height: auto;
-  margin-top: 4rem;
+  margin-top: 10rem;
   margin-bottom: 2rem;
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 4.3em;
+  font-size: 5.3em;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -148,7 +148,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 4.3em;
+  font-size: 5.3em;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -187,7 +187,10 @@
 
   img {
     position: absolute;
-    top: 11rem;
+    top: 9rem;
     max-width: 90%;
   }
+}
+
+.imgTopLine {
 }

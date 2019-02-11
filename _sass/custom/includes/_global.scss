@@ -15,26 +15,32 @@
 }
 
 .homeHeader {
+  margin-top: 2rem;
   background-color: rgba(37, 49, 53, 1);
 }
 
 .coachingHeader {
+  margin-top: 2rem;
   background-color: rgba(108, 72, 0, 1);
 }
 
 .partnershipsHeader {
+  margin-top: 2rem;
   background-color: #4f5c2b;
 }
 
 .appDevHeader {
+  margin-top: 2rem;
   background-color: rgba(60, 3, 32, 1);
 }
 
 .aboutHeader {
+  margin-top: 2rem;
   background-color: rgba(76, 93, 34, 1);
 }
 
 .askHeader {
+  margin-top: 2rem;
   background-color: rgba(76, 93, 34, 1);
 }
 
@@ -473,4 +479,15 @@ body {
   justify-content: center;
   align-content: center;
   background-color: #373f1d !important;
+}
+
+.internalTopLine {
+  width: 91%;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  position: absolute;
+  bottom: -2%;
+  left: 10%;
 }
