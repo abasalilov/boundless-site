@@ -8163,7 +8163,7 @@ div {
   /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 4.3em;
+  font-size: 5.3em;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em; }
@@ -8186,7 +8186,7 @@ div {
   line-height: 31px; }
 
 .topLine {
-  width: 90%;
+  width: 89%;
   margin-top: 4rem;
   margin-bottom: 4rem;
   position: relative;
@@ -8194,7 +8194,7 @@ div {
   border-top-width: 2px !important;
   border-image-width: 2px !important;
   border-color: #424b4e !important;
-  left: 10%; }
+  left: 11%; }
 
 .midLine {
   width: 83%;
@@ -8327,7 +8327,7 @@ div {
   max-width: 99%; }
   .topContent img {
     position: absolute;
-    top: 7rem;
+    top: 11rem;
     max-width: 90%; }
 
 .homeSignUp {
