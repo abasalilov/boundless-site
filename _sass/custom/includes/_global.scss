@@ -15,32 +15,32 @@
 }
 
 .homeHeader {
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: rgba(37, 49, 53, 1);
 }
 
 .coachingHeader {
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: rgba(108, 72, 0, 1);
 }
 
 .partnershipsHeader {
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: #4f5c2b;
 }
 
 .appDevHeader {
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: rgba(60, 3, 32, 1);
 }
 
 .aboutHeader {
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: rgba(76, 93, 34, 1);
 }
 
 .askHeader {
-  margin-top: 2rem;
+  margin-top: 3rem;
   background-color: rgba(76, 93, 34, 1);
 }
 
@@ -66,7 +66,7 @@
 
 .joinCopy {
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
-  font-size: 26px;
+  font-size: 2.75vh;
   color: rgba(255, 255, 255, 0.8);
   text-align: left;
   -ms-transform: rotate(0deg);
@@ -88,7 +88,7 @@
   /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 6.3em;
+  font-size: 10vh;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -101,7 +101,7 @@
 }
 
 input {
-  font-size: 26px !important;
+  font-size: 2.75vh !important;
   height: 58px;
   color: white;
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important;
@@ -137,7 +137,7 @@ input::placeholder {
   height: 58px;
   color: #273135;
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif !important;
-  font-size: 26px !important;
+  font-size: 2.75vh !important;
   border-radius: 0px !important;
   margin-top: 1rem;
 }
@@ -208,13 +208,13 @@ body {
 .workwithus {
   background-color: rgba(255, 255, 255, 0);
   height: auto;
-  width: 85px;
+  width: 6vw;
   margin: 0;
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 26px;
+  font-size: 2.75vh;
   color: rgba(252, 252, 252, 1);
   text-align: right;
   line-height: 27px;
@@ -482,12 +482,37 @@ body {
 }
 
 .internalTopLine {
-  width: 91%;
+  width: 92.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
   border-image-width: 2px !important;
   border-color: #424b4e !important;
   position: absolute;
-  bottom: -2%;
-  left: 10%;
+  bottom: -3vh;
+  left: 7.5vw;
+}
+
+.homeWorkFont {
+  color: rgba(37, 49, 53, 1) !important;
+}
+
+.coachingWorkFont {
+  color: #523a11;
+  border-color: #837358 !important;
+}
+
+.partnershipsWorkFont {
+  color: #4f5c2b;
+}
+
+.appDevWorkFont {
+  color: rgba(60, 3, 32, 1);
+}
+
+.aboutWorkFont {
+  color: rgba(76, 93, 34, 1);
+}
+
+.askWorkFont {
+  color: rgba(76, 93, 34, 1);
 }

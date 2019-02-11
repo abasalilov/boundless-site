@@ -16,7 +16,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 5.3em;
+  font-size: 10vh;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -33,7 +33,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
-  font-size: 26px;
+  font-size: 2.75vh;
   color: rgba(255, 255, 255, 0.8);
   text-align: left;
   line-height: 31px;
@@ -52,7 +52,7 @@
 }
 
 .midLine {
-  width: 83%;
+  width: 90%;
   margin-top: 4rem;
   margin-bottom: 4rem;
   position: relative;
@@ -60,7 +60,7 @@
   border-top-width: 2px !important;
   border-image-width: 2px !important;
   border-color: #424b4e !important;
-  left: 8.5%;
+  left: 10.5%;
 }
 
 .wevebeenbuilding {
@@ -71,7 +71,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
-  font-size: 26px;
+  font-size: 2.75vh;
   color: rgba(255, 255, 255, 0.8);
   text-align: left;
   line-height: 31px;
@@ -94,7 +94,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif !important;
-  font-size: 26px !important;
+  font-size: 2.75vh !important;
   color: rgba(255, 255, 255, 0.8);
   text-align: left;
   line-height: 31px;
@@ -113,13 +113,13 @@
   padding: 6px;
   text-decoration: underline;
   color: #273135 !important;
-  font-size: 26px;
+  font-size: 2.75vh;
 }
 
 .datespan {
   color: rgba(255, 255, 255, 1);
   display: inline-block;
-  font-size: 26px;
+  font-size: 2.75vh;
   line-height: 56px;
   font-family: "Barlow Condensed", sans-serif !important;
 }
@@ -133,7 +133,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 5.3em;
+  font-size: 10vh;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -148,7 +148,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-SemiBold", Helvetica, Arial, serif;
-  font-size: 5.3em;
+  font-size: 10vh;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
@@ -162,7 +162,7 @@
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   font-family: "BarlowCondensed-Regular", Helvetica, Arial, serif;
-  font-size: 26px;
+  font-size: 2.75vh;
   color: rgba(255, 255, 255, 0.8);
   text-align: left;
   line-height: 31px;
@@ -187,8 +187,10 @@
 
   img {
     position: absolute;
-    top: 9rem;
+    top: 23vh;
     max-width: 90%;
+    width: 37vw;
+    margin-left: 4vw;
   }
 }
 
