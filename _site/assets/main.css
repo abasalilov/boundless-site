@@ -7678,6 +7678,64 @@ body {
 .askWorkFont {
   color: #4c5d22; }
 
+.partnershipsMidLine {
+  width: 92.5vw;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  position: absolute;
+  left: 15%;
+  border-color: #64733f !important; }
+
+.coachingMidLine {
+  width: 92.5vw;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  position: absolute;
+  left: 15%;
+  border-color: #7a6032 !important; }
+
+.homeMidLine {
+  width: 92.5vw;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  position: absolute;
+  left: 15%;
+  border-color: #d4d6d7 !important; }
+
+.appDevMidLine {
+  width: 92.5vw;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  position: absolute;
+  left: 15%; }
+
+.aboutMidLine {
+  width: 92.5vw;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  position: absolute;
+  left: 15%; }
+
+.askMidLine {
+  border-color: #424b4e !important;
+  width: 92.5vw;
+  min-height: 2px !important;
+  border-top-width: 2px !important;
+  border-image-width: 2px !important;
+  border-color: #424b4e !important;
+  position: absolute;
+  left: 15%; }
+
 @font-face {
   font-family: "BarlowCondensed-SemiBold";
   src: url("../fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); }
@@ -8176,6 +8234,11 @@ div {
 
 .boundless2018 .span1 {
   color: rgba(255, 255, 255, 0.7); }
+
+.alignForm {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row; }
 
 .home-construction {
   background-color: rgba(255, 255, 255, 0);
