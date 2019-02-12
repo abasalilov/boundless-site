@@ -92,6 +92,8 @@
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
   line-height: 1.05em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .signupRow {
@@ -518,6 +520,7 @@ body {
 }
 
 .partnershipsMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -528,6 +531,7 @@ body {
 }
 
 .coachingMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -538,6 +542,7 @@ body {
 }
 
 .homeMidLine {
+  margin-top: 1rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -548,16 +553,18 @@ body {
 }
 
 .appDevMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
   border-image-width: 2px !important;
-  border-color: #424b4e !important;
+  border-color: #460c28 !important;
   position: absolute;
   left: 15.5%;
 }
 
 .aboutMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -568,6 +575,7 @@ body {
 }
 
 .askMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;

@@ -7249,7 +7249,9 @@ green     #859900  operators, other keywords
   font-size: 10vh;
   color: rgba(255, 255, 255, 0.7);
   text-align: left;
-  line-height: 1.05em; }
+  line-height: 1.05em;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem; }
 
 .signupRow {
   font-size: 1rem !important;
@@ -7679,6 +7681,7 @@ body {
   color: #4c5d22; }
 
 .partnershipsMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -7688,6 +7691,7 @@ body {
   border-color: #64733f !important; }
 
 .coachingMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -7697,6 +7701,7 @@ body {
   border-color: #7a6032 !important; }
 
 .homeMidLine {
+  margin-top: 1rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -7706,15 +7711,17 @@ body {
   left: 15.5%; }
 
 .appDevMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
   border-image-width: 2px !important;
-  border-color: #424b4e !important;
+  border-color: #460c28 !important;
   position: absolute;
   left: 15.5%; }
 
 .aboutMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -7724,6 +7731,7 @@ body {
   left: 15.5%; }
 
 .askMidLine {
+  margin-top: 4rem;
   width: 84.5vw;
   min-height: 2px !important;
   border-top-width: 2px !important;
@@ -7981,7 +7989,7 @@ div {
 
 .topTitle {
   height: auto;
-  margin-top: 4rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
   -ms-transform: rotate(0deg);
   /* IE 9 */
